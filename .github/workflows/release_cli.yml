@@ -126,7 +126,7 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     permissions:
-      contents: write # for softprops/action-gh-release@v1
+      contents: write # for softprops/action-gh-release@v2
       id-token: write # for `npm publish --provenance`
     needs:
       - build
@@ -171,7 +171,7 @@ jobs:
           done
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: CLI v${{ needs.build.outputs.version }}
           draft: true
