@@ -42,55 +42,55 @@ oxc_resolver = { path = "crates/oxc_resolver" }
 oxc_tasks_common = { path = "tasks/common" }
 oxc_vscode       = { path = "editor/vscode/server" }
 
-bpaf                      = { version = "0.9.5" }
-bitflags                  = { version = "2.4.1" }
-bumpalo                   = { version = "3.14.0" }
+bpaf                      = { version = "0.9.12" }
+bitflags                  = { version = "2.6.0" }
+bumpalo                   = { version = "3.16.0" }
 compact_str               = { version = "0.7.1" }
 convert_case              = { version = "0.6.0" }
 criterion                 = { version = "0.5.1", default-features = false }
 crossbeam-channel         = { version = "0.5.8" }
 dashmap                   = { version = "5.5.3" }
-env_logger                = { version = "0.10.0", default-features = false, features = ["auto-color", "humantime"] }
-flate2                    = { version = "1.0.28" }
-futures                   = { version = "0.3.29" }
-ignore                    = { version = "0.4.20" }
+env_logger                = { version = "0.10.2", default-features = false, features = ["auto-color", "humantime"] }
+flate2                    = { version = "1.0.31" }
+futures                   = { version = "0.3.30" }
+ignore                    = { version = "0.4.22" }
 itertools                 = { version = "0.11.0" }
 jemallocator              = { version = "0.5.4" }
-lazy_static               = { version = "1.4.0" }
+lazy_static               = { version = "1.5.0" }
 miette                    = { version = "5.10.0", features = ["fancy-no-backtrace"] }
-mimalloc                  = { version = "0.1.39" }
+mimalloc                  = { version = "0.1.43" }
 nodejs-resolver           = { version = "0.1.0" }
-num-bigint                = { version = "0.4.4" }
+num-bigint                = { version = "0.4.6" }
 num-traits                = { version = "0.2.17" }
 phf                       = { version = "0.11" }
 pico-args                 = { version = "0.5.0" }
-proc-macro2               = { version = "1.0.69" }
+proc-macro2               = { version = "1.0.86" }
 project-root              = { version = "0.2.2" }
-quote                     = { version = "1.0.33" }
-rayon                     = { version = "1.8.0" }
-regex                     = { version = "1.10.2" }
+quote                     = { version = "1.0.36" }
+rayon                     = { version = "1.10.0" }
+regex                     = { version = "1.10.6" }
 rustc-hash                = { version = "1.1.0", default-features = false, features = ["std"] }
 ryu-js                    = { version = "0.2.2" }
 ropey                     = { version = "1.6.1" }
-serde                     = { version = "1.0.190" }
-serde_json                = { version = "1.0.107" }
+serde                     = { version = "1.0.204" }
+serde_json                = { version = "1.0.112" }
 syn                       = { version = "=1" }
-thiserror                 = { version = "1.0.50" }
+thiserror                 = { version = "1.0.63" }
 tokio                     = { version = "1" }
 tower-lsp                 = { version = "0.20.0", features = ["proposed"] }
-unicode-id-start          = { version = "1.1.2" }
-ureq                      = { version = "2.8.0", default-features = false, features = ["tls"] }
-url                       = { version = "2.4.1" }
-walkdir                   = { version = "2.4.0" }
-indexmap                  = { version = "2.0.2" }
+unicode-id-start          = { version = "1.2.0" }
+ureq                      = { version = "2.10.0", default-features = false, features = ["tls"] }
+url                       = { version = "2.5.2" }
+walkdir                   = { version = "2.5.0" }
+indexmap                  = { version = "2.3.0" }
 index_vec                 = { version = "0.1.3" }
 static_assertions         = { version = "1.1.0" }
 stacker                   = { version = "0.1.15" }
 tracing                   = { version = "0.1" }
 tracing-subscriber        = { version = "0.3" }
 trustfall                 = { version = "0.6.1" }
-insta                     = { version = "1.34.0", features = ["glob"] }
-codspeed-criterion-compat = { version = "2.3.1", default-features = false }
+insta                     = { version = "1.39.0", features = ["glob"] }
+codspeed-criterion-compat = { version = "2.6.0", default-features = false }
 glob                      = { version = "0.3.1" }
 
 [profile.release.package.oxc_wasm]
