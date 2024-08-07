@@ -186,7 +186,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1dc3b1bd654a8d16eea03586c3eee8ffd25c7f242b9eae9730cc442834fe56d9"
 dependencies = [
  "bpaf_derive",
- "owo-colors",
+ "owo-colors 3.5.0",
  "supports-color",
 ]
 
@@ -1226,7 +1226,7 @@ dependencies = [
  "is-terminal",
  "miette-derive",
  "once_cell",
- "owo-colors",
+ "owo-colors 3.5.0",
  "supports-color",
  "supports-hyperlinks",
  "supports-unicode",
@@ -1463,6 +1463,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c1b04fb49957986fdce4d6ee7a65027d55d4b6d2265e5848bbb507b58ccfdb6f"
 
 [[package]]
+name = "owo-colors"
+version = "4.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "caff54706df99d2a78a5a4e3455ff45448d81ef1bb63c22cd14052ca0e993a3f"
+
+[[package]]
 name = "oxc"
 version = "0.2.0"
 dependencies = [
@@ -1599,7 +1605,7 @@ version = "0.2.0"
 dependencies = [
  "is-terminal",
  "miette",
- "owo-colors",
+ "owo-colors 4.0.0",
  "textwrap",
  "thiserror",
  "unicode-width",
