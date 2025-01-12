@@ -271,7 +271,7 @@ Special thanks go to
 
 ## 📖 License
 
-Oxc is free and open-source software licensed under the [MIT License](./LICENSE).
+Oxc licensed under the [MIT License](./LICENSE).
 
 Oxc ports or copies code from other open source projects, their licenses are listed in [**Third-party library licenses**](./THIRD-PARTY-LICENSE).
 
